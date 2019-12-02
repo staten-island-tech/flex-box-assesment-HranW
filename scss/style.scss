@@ -1,0 +1,23 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+body {
+    background-color: red($color: #124321);
+    height: 100%;
+}
+.body1 {
+  height: 60vh;
+  background-color: blue;
+  display: flex;
+}
+.body2 {
+  height: 20vh;
+  background-color: red;
+  margin: 10px;
+}
+.body3 {
+    height: 20vh;
+    background-color: red;
+    margin: 10px;
+}
