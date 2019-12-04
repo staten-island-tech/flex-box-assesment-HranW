@@ -1,28 +1,39 @@
 html {
-    font-size: 62.5%;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  font-size: 62.5%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #202020;
 }
 
 body {
   height: 100%;
 }
 
-.body1 {
+#MarvelLogo {
+  height: 5%;
+}
+
+/*.body1 {
   height: 60vh;
-  background-color: #09DF7C;
+  background-color: #09df7c;
   display: flex;
 }
 
 .body2 {
   height: 60vh;
-  background-color: #E9F86B;
+  background-color: #e9f86b;
   display: flex;
 }
 
 .body3 {
-    height: 60vh;
-    background-color: #C512D9;
-    display: flex;
+  height: 60vh;
+  background-color: #c512d9;
+  display: flex;
 }
+
+.subbody1 {
+  height: 20vh;
+  background-color: hotpink;
+  margin: 10px;
+}*/
