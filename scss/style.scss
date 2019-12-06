@@ -3,7 +3,7 @@ html {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #202020;
+  background-color: rgb(36, 36, 37);
 }
 
 body {
@@ -15,25 +15,46 @@ body {
 }
 
 .Movies {
-  height: 85rem;
+  height: 86rem;
   display: flex;
   flex-grow: 0;
 }
 
 .Informations {
-  height: 40rem;
-  background-color: honeydew;
+  background-position: center;
+  height: 100rem;
   display: flex;
-  justify-content: center;
-  font-family: 'Marvel', sans-serif;
+  font-family: "Marvel", sans-serif;
   color: black;
   font-size: 10rem;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.089),
+      rgba(255, 0, 0, 0.308)
+    ),
+    url(https://wallpaperaccess.com/full/802192.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  justify-content: space-evenly;
+  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .MoviePhoto {
   height: 80rem;
 }
 
+#ListOfMovies {
+  background-color: royalblue;
+}
+
+#ListOfSuperheros {
+  background-color: seagreen;
+}
+
+#ActualMarvelSite {
+  background-color: tomato;
+}
 /*.body1 {
   height: 60vh;
   background-color: #09df7c;
