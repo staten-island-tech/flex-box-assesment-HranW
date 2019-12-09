@@ -11,50 +11,40 @@ body {
 }
 
 #MarvelLogo {
-  height: 5%;
+  height: 90%;
 }
 
-.Movies {
+.Informations {
+  height: 10rem;
+  font-size: 5rem;
+  color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.Superheros {
   height: 86rem;
   display: flex;
   flex-grow: 0;
 }
 
-.Informations {
-  background-position: center;
-  height: 100rem;
+.Movies {
+  height: 80rem;
   display: flex;
   font-family: "Marvel", sans-serif;
   color: black;
   font-size: 10rem;
-  background-image: linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0.089),
-      rgba(255, 0, 0, 0.308)
-    ),
-    url(https://wallpaperaccess.com/full/802192.jpg);
-  background-repeat: repeat;
-  background-size: cover;
-  justify-content: space-evenly;
-  justify-content: space-around;
-  justify-content: space-between;
 }
 
 .MoviePhoto {
   height: 80rem;
 }
 
-#ListOfMovies {
-  background-color: royalblue;
+.CoverPhotos {
+  height: 80rem;
 }
 
-#ListOfSuperheros {
-  background-color: seagreen;
-}
-
-#ActualMarvelSite {
-  background-color: tomato;
-}
 /*.body1 {
   height: 60vh;
   background-color: #09df7c;
