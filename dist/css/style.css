@@ -28,19 +28,12 @@ body {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .Superheros {
-  height: 86rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: 0;
-      -ms-flex-positive: 0;
-          flex-grow: 0;
-}
-
-.Movies {
   height: 80rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -50,12 +43,24 @@ body {
   font-size: 10rem;
 }
 
+.Avengers {
+  height: 86rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+}
+
 .MoviePhoto {
   height: 80rem;
+  width: 47rem;
 }
 
 .CoverPhotos {
   height: 80rem;
+  width: 47rem;
 }
 
 /*.body1 {
