@@ -12,6 +12,7 @@ body {
 
 #MarvelLogo {
   height: 90%;
+  left: 50rem;
 }
 
 .Informations {
@@ -19,17 +20,9 @@ body {
   font-size: 5rem;
   color: antiquewhite;
   display: flex;
-  justify-content: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-}
-
-.Superheros {
-  height: 80rem;
-  display: flex;
-  font-family: "Marvel", sans-serif;
-  color: black;
-  font-size: 10rem;
 }
 
 .Avengers {
@@ -38,14 +31,54 @@ body {
   flex-grow: 0;
 }
 
-.MoviePhoto {
+.CoverPhotos {
   height: 80rem;
   width: 47rem;
 }
 
-.CoverPhotos {
-  height: 80rem;
-  width: 47rem;
+.Ironman {
+  height: 50rem;
+  display: flex;
+  font-family: 'Marvel', sans-serif;
+  font-size: 3rem;
+  color: rgb(223, 75, 82);
+  align-items: center;
+  line-height: 7rem;
+}
+
+.CaptainAmerica {
+  height: 50rem;
+  display: flex;
+  font-family: 'Marvel', sans-serif;
+  font-size: 3rem;
+  color: rgb(189, 140, 142);
+  align-items: center;
+  line-height: 5rem;
+}
+
+.Hulk {
+  height: 50rem;
+  display: flex;
+  font-family: 'Marvel', sans-serif;
+  font-size: 3rem;
+  color: rgb(80, 177, 109);
+  align-items: center;
+  line-height: 7rem;
+}
+
+.Thor {
+  height: 50rem;
+  display: flex;
+  font-family: 'Marvel', sans-serif;
+  font-size: 3rem;
+  color: rgb(109, 171, 212);
+  align-items: center;
+  line-height: 7rem;
+}
+
+#SuperheroPhotos {
+  height: 50rem;
+  width: 35rem;
 }
 
 /*.body1 {

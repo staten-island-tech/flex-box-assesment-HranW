@@ -13,6 +13,7 @@ body {
 
 #MarvelLogo {
   height: 90%;
+  left: 50rem;
 }
 
 .Informations {
@@ -22,25 +23,14 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.Superheros {
-  height: 80rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  font-family: "Marvel", sans-serif;
-  color: black;
-  font-size: 10rem;
 }
 
 .Avengers {
@@ -53,14 +43,70 @@ body {
           flex-grow: 0;
 }
 
-.MoviePhoto {
+.CoverPhotos {
   height: 80rem;
   width: 47rem;
 }
 
-.CoverPhotos {
-  height: 80rem;
-  width: 47rem;
+.Ironman {
+  height: 50rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Marvel', sans-serif;
+  font-size: 3rem;
+  color: #df4b52;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 7rem;
+}
+
+.CaptainAmerica {
+  height: 50rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Marvel', sans-serif;
+  font-size: 3rem;
+  color: #bd8c8e;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 5rem;
+}
+
+.Hulk {
+  height: 50rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Marvel', sans-serif;
+  font-size: 3rem;
+  color: #50b16d;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 7rem;
+}
+
+.Thor {
+  height: 50rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Marvel', sans-serif;
+  font-size: 3rem;
+  color: #6dabd4;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 7rem;
+}
+
+#SuperheroPhotos {
+  height: 50rem;
+  width: 35rem;
 }
 
 /*.body1 {
