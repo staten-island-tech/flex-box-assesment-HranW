@@ -28,7 +28,9 @@ body {
 .Avengers {
   height: 86rem;
   display: flex;
-  flex-grow: 0;
+  justify-content: center;
+  justify-content: space-between;
+
 }
 
 .CoverPhotos {
@@ -40,10 +42,21 @@ body {
   height: 50rem;
   display: flex;
   font-family: 'Marvel', sans-serif;
-  font-size: 3rem;
+  font-size: 2rem;
   color: rgb(223, 75, 82);
   align-items: center;
   line-height: 7rem;
+  text-align: center;
+
+}
+
+.irontext {
+  font-family: 'Marvel', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  border: 5px inset orange;
+  width: 60%;
+  margin-left: 10%;
 }
 
 .CaptainAmerica {
@@ -79,6 +92,10 @@ body {
 #SuperheroPhotos {
   height: 50rem;
   width: 35rem;
+}
+
+#button {
+  height: 3rem;
 }
 
 /*.body1 {

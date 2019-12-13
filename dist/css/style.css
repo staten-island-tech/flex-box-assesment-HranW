@@ -38,9 +38,12 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-flex: 0;
-      -ms-flex-positive: 0;
-          flex-grow: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .CoverPhotos {
@@ -54,12 +57,22 @@ body {
   display: -ms-flexbox;
   display: flex;
   font-family: 'Marvel', sans-serif;
-  font-size: 3rem;
+  font-size: 2rem;
   color: #df4b52;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   line-height: 7rem;
+  text-align: center;
+}
+
+.irontext {
+  font-family: 'Marvel', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  border: 5px inset orange;
+  width: 60%;
+  margin-left: 10%;
 }
 
 .CaptainAmerica {
@@ -107,6 +120,10 @@ body {
 #SuperheroPhotos {
   height: 50rem;
   width: 35rem;
+}
+
+#button {
+  height: 3rem;
 }
 
 /*.body1 {
