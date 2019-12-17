@@ -1,9 +1,11 @@
+@import "_variables.scss";
+
 html {
   font-size: 62.5%;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: rgb(36, 36, 37);
+  background-color: color(backgroundcolor);
 }
 
 body {
@@ -30,7 +32,6 @@ body {
   display: flex;
   justify-content: center;
   justify-content: space-between;
-
 }
 
 .CoverPhotos {
@@ -41,28 +42,27 @@ body {
 .Ironman {
   height: 50rem;
   display: flex;
-  font-family: 'Marvel', sans-serif;
+  font-family: "Marvel", sans-serif;
   font-size: 2rem;
   color: rgb(223, 75, 82);
   align-items: center;
-  line-height: 7rem;
-  text-align: center;
-
 }
 
-.irontext {
-  font-family: 'Marvel', sans-serif;
+.text {
+  font-family: "Marvel", sans-serif;
   font-size: 2rem;
   text-align: center;
-  border: 5px inset orange;
+  border: 3px inset goldenrod;
   width: 60%;
   margin-left: 10%;
+  margin-right: 10%;
+  line-height: 7rem;
 }
 
 .CaptainAmerica {
   height: 50rem;
   display: flex;
-  font-family: 'Marvel', sans-serif;
+  font-family: "Marvel", sans-serif;
   font-size: 3rem;
   color: rgb(189, 140, 142);
   align-items: center;
@@ -72,7 +72,7 @@ body {
 .Hulk {
   height: 50rem;
   display: flex;
-  font-family: 'Marvel', sans-serif;
+  font-family: "Marvel", sans-serif;
   font-size: 3rem;
   color: rgb(80, 177, 109);
   align-items: center;
@@ -82,7 +82,7 @@ body {
 .Thor {
   height: 50rem;
   display: flex;
-  font-family: 'Marvel', sans-serif;
+  font-family: "Marvel", sans-serif;
   font-size: 3rem;
   color: rgb(109, 171, 212);
   align-items: center;
@@ -92,6 +92,7 @@ body {
 #SuperheroPhotos {
   height: 50rem;
   width: 35rem;
+  margin: 1%;
 }
 
 #button {
