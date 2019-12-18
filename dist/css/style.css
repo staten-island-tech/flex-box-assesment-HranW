@@ -4,7 +4,7 @@ html {
           box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #242425;
+  background-color: #202022;
 }
 
 body {
@@ -64,6 +64,12 @@ body {
           align-items: center;
 }
 
+.ironphoto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .text {
   font-family: "Marvel", sans-serif;
   font-size: 2rem;
@@ -72,7 +78,7 @@ body {
   width: 60%;
   margin-left: 10%;
   margin-right: 10%;
-  line-height: 7rem;
+  line-height: 5rem;
 }
 
 .CaptainAmerica {
@@ -121,10 +127,6 @@ body {
   height: 50rem;
   width: 35rem;
   margin: 1%;
-}
-
-#button {
-  height: 3rem;
 }
 
 /*.body1 {
